@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Intro</title>
+</head>
+<body>
+    <script>
+        function printTriangle(height) {
+            text = '';
+            for(var i = 0; i < height; i++) {
+                text = text + '*';
+                console.log(text);
+        }
+    }
+
+// 테스트 코드
+console.log('높이: 5');
+printTriangle(5);
+
+console.log('높이: 3');
+printTriangle(3);
+
+console.log('높이: 1');
+printTriangle(1);
+    </script>
+</body>
+</html>
